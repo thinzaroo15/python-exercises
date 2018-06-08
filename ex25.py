@@ -16,7 +16,7 @@ def print_last_word(words):
 def sort_sentence(sentence):
     """Takes in a fill sentence and returns the sorted words."""
     word =break_words(sentence)
-    return sort_words(words)
+    return sorted(word)
 def print_first_and_last(sentence):
     """Prints the first and last words of the sentence."""
     words =break_words(sentence)
