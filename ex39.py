@@ -32,3 +32,7 @@ for state,abbrev in list (states.items()):
     print(f"and has city {cities[abbrev]}")
 print('-'*10)
 state=states.get('Texas')
+if not state:
+    print("Sorry, no Texas.")
+    city=cities.get('TX','Does Not Exist')
+    print(f"The city for the state 'TX' is :{city}")
